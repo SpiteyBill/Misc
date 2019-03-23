@@ -16,7 +16,11 @@ What happens is, the credentials of one repo can conflict with the other, thus a
 Change these settings for each repository as shown below (pictures show only for name1/repo1:
 
 1. **Use HTTPS encryption.** - TortoiseGit Settings > Git > Remote > Origin > URL
+![Img](https://github.com/SpiteyBill/Misc/blob/master/2019-03-23%2021_54_56_LI.jpg)
+
 2. **Set Git credentials** - TortoiseGit Settings > Git > Remote > Origin > URL
+![Img](https://github.com/SpiteyBill/Misc/blob/master/2019-03-23%2021_58_11_LI.jpg)
+
 3. **Save username and password** - To avoid having to put in your username and password again and again (if it is your own PC), then open git bash in both repos, and type:
 ```
 git config user.name "name1"
